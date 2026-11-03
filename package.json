@@ -1,0 +1,20 @@
+{
+  "name": "dsh-model-router-lite",
+  "version": "0.1.0",
+  "description": "Task-based model preferences for native DSH subagents, using only user-authorized routes.",
+  "type": "module",
+  "license": "MIT",
+  "author": "WangZW928",
+  "repository": { "type": "git", "url": "git+https://github.com/WangZW928/dsh-model-router-lite.git" },
+  "homepage": "https://github.com/WangZW928/dsh-model-router-lite#readme",
+  "bugs": { "url": "https://github.com/WangZW928/dsh-model-router-lite/issues" },
+  "keywords": ["dsh-plugin", "deepseek-harness", "subagent", "model-routing", "multi-model"],
+  "engines": { "node": ">=22", "dsh": ">=0.2.1-rc.5 <0.3.0" },
+  "exports": { ".": "./index.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["index.js", "policy.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "assets/icon-180.png", "README.md", "README.zh.md", "CHANGELOG.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js", "check": "node --check index.js && node --check policy.js" },
+  "peerDependencies": { "@deepseek-ai/schemastery": "^3.18.5" },
+  "devDependencies": { "@deepseek-ai/schemastery": "3.18.5" },
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

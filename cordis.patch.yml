@@ -1,0 +1,8 @@
+# Public defaults: no provider/model IDs and no native authorization override.
+# Users grant native model-selection permission themselves, then set preferences.
+- insert:
+    - id: dsh-model-router-lite
+      name: dsh-model-router-lite
+      config:
+        enabled: true
+        routes: []

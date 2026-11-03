@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Router Lite",
+    "description": "After setup, guides native subagents to authorized models by task type. No extra routing model; no automatic authorization."
+  }
+}
