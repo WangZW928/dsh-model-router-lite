@@ -28,19 +28,21 @@
 
 ## 安装
 
-需要 DSH **0.2.1-rc.5** 或兼容的 0.2.x 稳定版本。在当前 profile 的插件管理器中安装公开预打包版本：
+需要 DSH **0.2.1-rc.5** 或兼容的 0.2.x 稳定版本。在当前 profile 的插件管理器中安装 [npm 公开包](https://www.npmjs.com/package/dsh-model-router-lite)：
 
 ```text
-https://github.com/WangZW928/dsh-model-router-lite/releases/download/v0.1.0/dsh-model-router-lite-0.1.0.tgz
+dsh-model-router-lite@0.1.0
 ```
 
 CLI 用户：
 
 ```sh
-dsh plugin --profile YOUR_PROFILE add https://github.com/WangZW928/dsh-model-router-lite/releases/download/v0.1.0/dsh-model-router-lite-0.1.0.tgz
+dsh plugin --profile YOUR_PROFILE add dsh-model-router-lite@0.1.0
 ```
 
-把 `YOUR_PROFILE` 换成实际 profile。Desktop 用户应通过应用安装，不要默认使用 `web` profile。安装包不含构建或安装脚本。GitHub 公开发布、市场审核收录、npm 发布是不同状态；能下载不等于已经被市场收录。
+也可安装 [GitHub 预打包版本](https://github.com/WangZW928/dsh-model-router-lite/releases/download/v0.1.0/dsh-model-router-lite-0.1.0.tgz)。把 `YOUR_PROFILE` 换成实际 profile。Desktop 用户应通过应用安装，不要默认使用 `web` profile。安装包不含构建或安装脚本。
+
+npm/GitHub 公开可下载、市场审核收录、索引更新是不同状态；能下载不等于已经被市场收录。当前审核状态见 [市场申请](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/11758)。
 
 ## 首次配置：三步
 

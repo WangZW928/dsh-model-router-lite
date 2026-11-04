@@ -28,19 +28,21 @@ Missing default preference → inherit parent model
 
 ## Install
 
-Requires DSH **0.2.1-rc.5** or compatible 0.2.x stable releases. Use your active profile's plugin manager to install the public prebuilt release:
+Requires DSH **0.2.1-rc.5** or compatible 0.2.x stable releases. Use your active profile's plugin manager to install the [public npm package](https://www.npmjs.com/package/dsh-model-router-lite):
 
 ```text
-https://github.com/WangZW928/dsh-model-router-lite/releases/download/v0.1.0/dsh-model-router-lite-0.1.0.tgz
+dsh-model-router-lite@0.1.0
 ```
 
 For a CLI-managed installation:
 
 ```sh
-dsh plugin --profile YOUR_PROFILE add https://github.com/WangZW928/dsh-model-router-lite/releases/download/v0.1.0/dsh-model-router-lite-0.1.0.tgz
+dsh plugin --profile YOUR_PROFILE add dsh-model-router-lite@0.1.0
 ```
 
-Replace `YOUR_PROFILE` with the actual profile. Desktop users should install through the app, not assume their profile is `web`. No build or install scripts are shipped. Market listing and npm publication are separate from this public GitHub release; a release link does not mean a catalog submission has been accepted.
+Alternatively, install the [prebuilt GitHub release archive](https://github.com/WangZW928/dsh-model-router-lite/releases/download/v0.1.0/dsh-model-router-lite-0.1.0.tgz). Replace `YOUR_PROFILE` with the actual profile. Desktop users should install through the app, not assume their profile is `web`. No build or install scripts are shipped.
+
+Public npm/GitHub availability is separate from catalog acceptance and index synchronization. Track the [market submission](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/11758) for its current review status.
 
 ## Set up once
 
